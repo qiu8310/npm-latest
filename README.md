@@ -10,6 +10,11 @@ Why?
 
 I often forget which package version I need to put as a dependency in my packages. Running `npm info [package]` and then scrolling up scanning JSON became annoying.
 
+**Update 2015-03-29:**
+
+支持通过 .npmrc 配置 registry，详情查看[registry-url](https://github.com/sindresorhus/registry-url)
+
+
 **Update:**
 
 Thanks to [@timoxley](https://github.com/timoxley) for pointing out that a very viable alternative would be to just run:
